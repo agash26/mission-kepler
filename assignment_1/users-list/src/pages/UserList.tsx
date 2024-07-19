@@ -30,7 +30,7 @@ const UserList: React.FC<UserListProps> = ({ searchQuery }) => {
             </div>
           ))
         ) : (
-          <div>No users available</div>
+          <div className="p-6 items-center">No users available</div>
         )}
       </div>
     </div>
