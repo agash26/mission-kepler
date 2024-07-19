@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "name": "User One",
+        "location": "Chennai",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDMR_X0gDt-8YXskPCucTUUIUPwbxDAtL0wA&s",
+        "skills": [
+            "Java",
+            "Python"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "User Two",
+        "location": "Madurai",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDMR_X0gDt-8YXskPCucTUUIUPwbxDAtL0wA&s",
+        "skills": [
+            "dot Net",
+            "WPF"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "User Three",
+        "location": "Trichy",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDMR_X0gDt-8YXskPCucTUUIUPwbxDAtL0wA&s",
+        "skills": [
+            "Node",
+            "React"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "User Four",
+        "location": "Salem",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDMR_X0gDt-8YXskPCucTUUIUPwbxDAtL0wA&s",
+        "skills": [
+            "Flask",
+            "MongoDB",
+            "DynamoDB"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "User Five",
+        "location": "Erode",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDMR_X0gDt-8YXskPCucTUUIUPwbxDAtL0wA&s",
+        "skills": [
+            "MySQL",
+            "Php",
+            "jQuery"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "User Six",
+        "location": "Karur",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDMR_X0gDt-8YXskPCucTUUIUPwbxDAtL0wA&s",
+        "skills": [
+            "Ruby On Rails",
+            "Angular"
+        ]
+    }
+]
