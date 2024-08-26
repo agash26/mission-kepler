@@ -1,0 +1,29 @@
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  text-align: left;
+  font-size: 2rem;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+.content {
+  padding: 2rem;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.noUsersFound {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #999;
+  margin-top: 2rem;
+}
