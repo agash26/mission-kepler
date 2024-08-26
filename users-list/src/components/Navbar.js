@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styles from '../styles/Navbar.module.css';
+import SearchBar from './SearchBar';
 
 const Navbar = ({ searchTerm, setSearchTerm }) => {
   const [activeLink, setActiveLink] = useState('new-users');
@@ -10,14 +11,7 @@ const Navbar = ({ searchTerm, setSearchTerm }) => {
 
   return (
     <nav className={styles.navbar}>
-      <div className={styles.searchContainer}>
-        <input
-          type="text"
-          placeholder="Search Users..."
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-        />
-      </div>
+      <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
       <div className={styles.navLinks}>
         <button
           className={`${styles.navLink} ${activeLink === 'new-users' ? styles.active : ''}`}
