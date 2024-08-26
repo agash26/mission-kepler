@@ -1,0 +1,17 @@
+.searchContainer {
+    display: flex;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 0.5rem;
+    border-radius: 4px;
+  }
+  
+  .searchIcon {
+    margin-right: 0.5rem;
+  }
+  
+  .input {
+    border: none;
+    outline: none;
+    background: transparent;
+  }  
